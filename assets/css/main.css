@@ -2447,7 +2447,7 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 0.35em;
 		border: solid 3px #efefef;
-		color: #787878 !important;
+		color: #1a1a1a !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2465,8 +2465,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #000000;
+			color: #000000 !important;
 		}
 
 		input[type="submit"]:active,
