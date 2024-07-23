@@ -3220,3 +3220,10 @@ input, select, textarea {
 			}
 
 	}
+
+	/* My Styles */
+	.work-title {
+		display: flex; 
+		justify-content: space-between
+
+	}
