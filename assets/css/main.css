@@ -2687,6 +2687,9 @@ input, select, textarea {
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
+		min-height: 100vh;
+		box-sizing: border-box;
+
 	}
 
 		#main > section {
@@ -3031,6 +3034,9 @@ input, select, textarea {
 				max-width: none;
 				padding: 6em 3em 3em 3em;
 				width: calc(100% - 30%);
+				min-height: 100vh; 
+				box-sizing: border-box;
+
 			}
 
 	}
@@ -3080,15 +3086,14 @@ input, select, textarea {
 				background-attachment: scroll;
 				background-color: #1f1815;
 				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-				background-position: top left,						bottom center;
+				background-position: top left, bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
-				bottom: auto;
-				left: auto;
 				padding: 4em 4em 6em 4em;
 				position: relative;
-				text-align: center;
 				width: 100%;
+				bottom: 0;
+				text-align: center;
 			}
 
 				#footer .icons {
@@ -3113,6 +3118,8 @@ input, select, textarea {
 				margin: 0;
 				padding: 6em 4em;
 				width: 100%;
+				min-height: 100vh; 
+				box-sizing: border-box;
 			}
 
 	}
@@ -3221,9 +3228,15 @@ input, select, textarea {
 
 	}
 
-	/* My Styles */
-	.work-title {
-		display: flex; 
-		justify-content: space-between
+/* My Styles */
+.work-title {
+	display: flex; 
+	justify-content: space-between
 
-	}
+}
+
+.nav-bar menu a {
+	color: #fff;
+	
+}
+
