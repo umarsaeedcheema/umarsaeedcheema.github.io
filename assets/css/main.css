@@ -3347,3 +3347,9 @@ body.is-touch .poptrox-popup .closer {
   display: flex;
   justify-content: space-between;
 }
+
+.tech-stack {
+  font-size: 0.8em;
+  color: #555;
+  font-style: italic;
+}
